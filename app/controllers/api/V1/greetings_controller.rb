@@ -7,10 +7,4 @@ module Api
       end
     end
   end
-
-  get '*page', to: 'static#index', constraints: lambda { |req|
-  !req.xhr? && req.format.html?
-  }
-
-  root 'static#index'
 end
