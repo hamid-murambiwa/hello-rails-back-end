@@ -21,7 +21,7 @@ To get a local copy for this project and running follow these simple example ste
 
 [hello-rails-front-end](https://first-hello-rails-back-end.herokuapp.com/api/v1/greetings)
 
-[React app]()
+[React-app]()
 
 ### Prerequisites
 
