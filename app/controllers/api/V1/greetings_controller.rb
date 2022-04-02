@@ -2,7 +2,7 @@ module Api
   module V1
     class GreetingsController < ApplicationController
       def index
-        @greeting = Greeting.find(rand(1..5))
+        @greeting = Greeting.order(Arel.sql('RANDOM()')).first
         render json: @greeting, status: :ok
       end
     end
